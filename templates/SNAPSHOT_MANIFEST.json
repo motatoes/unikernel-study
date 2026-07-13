@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "instance_id": "",
+  "image_digest": "sha256:...",
+  "config_digest": "sha256:...",
+  "vmm": {
+    "kind": "firecracker",
+    "version": "",
+    "snapshot_format": ""
+  },
+  "cpu_contract": "",
+  "memory_object": {
+    "digest": "sha256:...",
+    "size": 0,
+    "encryption": "platform-managed"
+  },
+  "vmm_state_object": {
+    "digest": "sha256:...",
+    "size": 0
+  },
+  "block_snapshots": [],
+  "network_restore_policy": "recreate",
+  "time_restore_policy": "exclude-suspended-duration",
+  "entropy_reseed_required": true,
+  "created_at": "",
+  "integrity": ""
+}

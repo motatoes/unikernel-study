@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "architecture": "x86_64",
+  "application": "example",
+  "application_abi": 1,
+  "platform_abi": 1,
+  "minimum_memory_bytes": 67108864,
+  "recommended_memory_bytes": 134217728,
+  "vcpus": { "minimum": 1, "maximum": 1 },
+  "required_devices": ["virtio-net", "virtio-vsock", "virtio-rng"],
+  "optional_devices": ["virtio-block"],
+  "supported_platforms": ["qemu-kvm", "firecracker", "oc-vmm"],
+  "config_schema_digest": "sha256:..."
+}

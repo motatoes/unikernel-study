@@ -1,0 +1,35 @@
+name: ""
+date: "YYYY-MM-DD"
+commit: ""
+image_digest: "sha256:"
+build_profile: "release"
+toolchain:
+  rust: ""
+  linker: ""
+host:
+  cpu: ""
+  sockets: 1
+  cores: 0
+  kernel: ""
+  memory_mib: 0
+vmm:
+  kind: "qemu|firecracker|oc-vmm"
+  version: ""
+guest:
+  vcpus: 1
+  memory_mib: 64
+  cpu_contract: ""
+network:
+  mode: "tap-bridge"
+  mtu: 1500
+storage:
+  backend: ""
+  snapshot_chain_depth: 0
+workload:
+  command: ""
+  concurrency: 1
+  duration_seconds: 0
+  warmup_seconds: 0
+  samples: 0
+results_raw: ""
+notes: ""
